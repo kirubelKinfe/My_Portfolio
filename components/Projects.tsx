@@ -11,6 +11,8 @@ export type ProjectType = {
     tags: Array<string>
 }
 
+export const revalidate = 900;
+
 const Projects = async () => {
     const projects = await getProjects({ query: "", category: "", page: "1" })
 

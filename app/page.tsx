@@ -1,7 +1,6 @@
 import React from 'react'
 import { Navbar, Header, About, Projects } from '@components/index'
 
-export const revalidate = 1;
 
 const Home = () => {
   return (

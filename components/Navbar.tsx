@@ -3,7 +3,7 @@
 import { Menu } from 'lucide-react'
 import SideNav from './SideNav'
 import { useState } from 'react'
-const linkStyle = "text-sm lg:text-base text-black py-2 px-4 font-bold transition hover:text-blue-700 duration-300"
+const linkStyle = "text-sm lg:text-base text-[#130849] py-2 px-4 font-bold transition hover:text-blue-700 duration-300"
 
 const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false)

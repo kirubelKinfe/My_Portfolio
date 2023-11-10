@@ -19,7 +19,7 @@ const Project = ({ project }: ProjectProps) => {
                 />
             </div>
             <div className="col-span-3 py-5 px-8 flex flex-col gap-5 items-center">
-                <p className="font-bold text-2xl">{project.title}</p>
+                <p className="font-bold text-2xl text-[#130849]">{project.title}</p>
                 <p className="text-gray-600 font-poppins text-xl text-center">{project.description}</p>
                 <div className="flex items-center gap-2">
                     {project.tags?.map((tag) => (
