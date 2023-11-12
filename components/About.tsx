@@ -6,7 +6,7 @@ const About = () => {
             <div className="col-span-1 w-full flex items-center justify-center">
                 <Image
                     src={"/assets/frontend.jpg"}
-                    className="w-[300px] h-[300px] lg:w-[420px] lg:h-[340px] rounded-lg shadow-lg object-cover"
+                    className="w-[3530px] h-[300px] lg:w-[420px] lg:h-[340px] rounded-lg shadow-sm object-cover"
                     width={300}
                     height={300}
                     alt="about me"

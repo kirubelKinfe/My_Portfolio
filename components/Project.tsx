@@ -18,22 +18,22 @@ const Project = ({ project }: ProjectProps) => {
                     alt="restaurant"
                 />
             </div>
-            <div className="col-span-3 py-5 px-8 flex flex-col gap-5 items-center">
-                <p className="font-bold text-2xl text-[#130849]">{project.title}</p>
-                <p className="text-gray-600 font-poppins text-xl text-center">{project.description}</p>
-                <div className="flex items-center gap-2">
+            <div className="col-span-3 py-5 px-2 sm:px-8 flex flex-col gap-5 items-center">
+                <p className="font-bold text-xl sm:text-2xl text-[#130849]">{project.title}</p>
+                <p className="text-gray-600 font-poppins text-base sm:text-xl text-center">{project.description}</p>
+                <div className="flex flex-wrap items-center gap-2">
                     {project.tags?.map((tag) => (
-                        <p key={tag} className="p-2 shadow-md font-bold capitalize text-gray-700">{tag}</p>
+                        <p key={tag} className="p-2 text-sm sm:text-base shadow-md font-bold capitalize text-gray-700">{tag}</p>
                     ))}
                 </div>
-                <div className="w-full flex items-center justify-between px-14">
+                <div className="w-full flex items-center justify-center gap-10">
                     <Link href={''} className="flex items-center group gap-2">
-                        <p className="text-lg text-gray-800  group-hover:text-blue-500">Code</p>
-                        <Github className="text-base text-gray-700  group-hover:text-blue-500" />
+                        <p className="text-base sm:text-lg text-gray-800  group-hover:text-blue-500">Code</p>
+                        <Github className="text-sm sm:text-lg text-gray-700  group-hover:text-blue-500" />
                     </Link>
                     <Link href={''} className="flex items-center group gap-2">
-                        <p className="text-lg text-gray-800 group-hover:text-blue-500">Live</p>
-                        <ExpandIcon className="text-base text-gray-700  group-hover:text-blue-500" />
+                        <p className="text-base sm:text-lg text-gray-800 group-hover:text-blue-500">Live</p>
+                        <ExpandIcon className="text-sm sm:text-lg text-gray-700  group-hover:text-blue-500" />
                     </Link>
                 </div>
             </div>

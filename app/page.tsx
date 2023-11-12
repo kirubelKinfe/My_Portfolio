@@ -4,7 +4,7 @@ import { Navbar, Header, About, Projects } from '@components/index'
 
 const Home = () => {
   return (
-    <div className="app">
+    <div>
       <Navbar />
       <Header />
       <About />
