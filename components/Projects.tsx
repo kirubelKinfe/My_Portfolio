@@ -43,7 +43,7 @@ const Projects = async () => {
         <div className="bg-[#f9f9f9] py-16 px-5 sm:px-20 lg:px-32 flex flex-col gap-10" id="projects">
             <div>
                 <p className="text-blue-500 font-bold">PORTFOLIO</p>
-                <p className="text-xl sm:text-3xl font-bold mb-8">Each project is a unique piece of development 🧩</p>
+                <p className="text-xl sm:text-3xl font-bold mb-8">Each project is a unique piece of development 🇪🇹</p>
             </div>
             {projects?.map((project: ProjectType, index: number) => (
                 <Project key={project._id} index={index} project={project} />
